@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Including Font*/
+@font-face {
+	font-family: roboto;
+	src: url(Roboto-Light.ttf);
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: roboto;
+	color:#FFF;
+}
+
+.hyperLink{
+	text-decoration: none;
+}
+
+.header{
+	height: 60px;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	background: url(marvel_studios-01.png) no-repeat;
+	background-color: #f0131e;
+}
+
+.subHeader{
+	height: 50px;
+	width: 100%;
+	padding-top: 27px;
+	padding-bottom: 0px;
+	background-color: rgb(68, 67, 67); 
+}
+
+.middleSection{
+	height: 3500px;
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 20px;
+	background-color: #333;
+}
+
+.left{
+	height: 380px;
+	width: 50%;
+    background-image: linear-gradient(to bottom right, rgb(34, 34, 34), #333);
+	float:left;
+}
+
+.bgColor{
+    background-image: linear-gradient(to bottom right,rgb(34, 34, 34), #333);
+}
+
+.backgroundImg {
+	background-image: url("images/honeycombBackgroung.jpg");
+}
+
+.right{
+    float:right;
+	width: 50%;
+}
+
+.bottom{
+	height: 380px;
+}
+
+.h1{
+	text-align:center;
+	justify-content: center;
+}
+
+.textboxResize{
+	height: 35px;
+	width: 325px;
+	padding-left: 3px;
+	border-radius: 8px;
+	border-color: transparent;
+	color: #000;
+	box-shadow: 1px 1px 1px #141414;
+}
+
+.textboxResize1{
+	width: 155px;
+	box-shadow: 1px 1px 2px rgb(7, 7, 7);
+}
+
+.textboxResize:focus{
+	outline-color: #f0131e;
+}
+
+.nameIcon{
+	background: url(icons/icons8-collaborator-male-50.png) no-repeat 6px 6px;
+}
+
+.emailIcon{
+	background: url(icons/icons8-email-open-100.png) no-repeat 6px 6px;
+}
+
+.passwordIcon{
+	background: url(icons/icons8-password-48.png) no-repeat 6px 6px;
+}
+
+.inputIcon{
+	background-size: 23px;
+	text-indent: 30px;
+	background-color: white;
+}
+
+.textboxResize:hover{
+	outline-color: #f0131e;
+}
+
+.button {
+	width: 330px;
+	height: 35px;
+	font-size: 17px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color:#999;
+	border-color: transparent;
+	border-radius: 8px;
+	box-shadow: 1px 1px 2px rgb(182, 182, 182);
+}
+
+.button:focus{
+	outline-color: #f0131e;
+}
+
+.table{
+	margin-top: 28px;
+}	
+
+.tableLogin{
+	margin-top: 80px;
+}
+
+.img{
+	max-width: 100%;
+	height: auto;
+}
+
+.contentText {
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-top: 12px;
+	text-align: justify;
+}
+
+.footer{
+	height: 200px;
+	position: relative;
+}
+
+.footerIndex{
+	margin-top: 1140px;
+}
+
+.footerUpcoming{
+	margin-top: 4180px;
+}
+
+.footerText{
+	text-align: center;
+}
+
+.footerLatestNews{
+	margin-top: 680px;
+}
+
+.footerContent{
+	margin-top: 400px;;
+}
+
+.footerIcon{
+	padding-top: 30px;
+	padding-left: 25px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-250%);	
+}

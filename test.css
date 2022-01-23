@@ -1,0 +1,33 @@
+@font-face {
+	font-family: roboto;
+	src: url(Roboto-Medium.ttf);
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: roboto;
+	color:#FFF;
+}
+
+.headerLogo{
+    height: 97px;
+    width: 20%;
+    background: url(marvel_studios-01.png) no-repeat -60px -75px;
+    background-color: #f0131e;
+    background-size: 350px;
+    float: right;
+}
+
+.header{
+	height: 70px;
+	width: 80%;
+	padding-top: 27px;
+	background-color: #f0131e;
+    float: left;
+}
+
+.h1{
+	text-align:center;
+	justify-content: center;
+}

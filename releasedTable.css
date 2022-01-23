@@ -1,0 +1,21 @@
+td{
+    height: 40px;
+}
+
+.tableReleased{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.phaseColor{
+    background-color: rgb(68, 67, 67);
+    height: 23px;
+}
+
+.tableStyling{
+    border-collapse: collapse;
+}
+
+.filmClm{
+    background-color: rgb(87, 87, 87);
+}
